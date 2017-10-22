@@ -2,6 +2,176 @@ body {
   margin: 0;
 }
 
+.nav {
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.nav h1 {
+  float: left;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-type: bold;
+  font-size: 1.5em;
+  color: #323232;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  font-family: 'PT Sans', sans-serif;
+  font-type: regular;
+  font-size: .9em;
+  color: #323232;
+  text-transform: uppercase;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+.white {
+  clear: both;
+}
+
+.white h3 {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+}
+
+.splash img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-type: bold;
+  font-size: 1.875em;
+  color: #323232;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.images {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.images img {
+  clear: both;
+  display: inline-block;
+  border-radius: 100%;
+  width: 250px;
+  height: auto;
+  padding: 28px;
+}
+
+.white .container {
+  background: #eee;
+  width: 240px;
+  padding: 30px;
+  border: none;
+  display: inline-block;
+  margin: auto;
+}
+
+.flex-box-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.grey {
+  background-color: #eee;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 88px;
+}
+
+.grey .container {
+  background: #fff;
+  width: 300px;
+  padding: 30px;
+  border: none;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-type: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'PT Serif', sans-serif;
+  font-type: regular;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  text-align: left;
+}
+
+p {
+  font-family: 'PT Serif', sans-serif;
+  font-type: regular;
+  font-size: .875em;
+  line-height: 1.75em;
+  font-color: #323232;
+  text-align: left;
+}
+
+span {
+  font-family: 'PT Serif', sans-serif;
+  font-type: bold;
+  font-size: 1em;
+  color: #f26522;
+  text-align: right;
+}
+.second {
+  padding-left: 66px;
+}
+.footer {
+  background-color: #00897f;
+  background-size: 125px;
+}
+
+.footer img {
+  width: 100%;
+}
+
+.footer h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-type: regular;
+  font-size: 1.25em;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {

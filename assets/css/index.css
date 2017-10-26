@@ -41,8 +41,8 @@ ul li {
 }
 
 .white h3 {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-bottom: 80px;
 }
 
@@ -88,9 +88,9 @@ h1 {
 .flex-box-one {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .grey {
@@ -101,8 +101,8 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 88px;
 }
 
@@ -173,10 +173,43 @@ span {
 }
 
 
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+/* On devices wider than 940px */
+@media(max-width: 940px) {
+  .flex-box-one {
+    display: block;
+  }
+
+  .white .container {
+    margin: 100px auto;
+    display: block;
+  }
+
+  .parent-container {
+    display: block;
+  }
+
+  .grey .container {
+    margin: 100px auto;
+    display: block;
+  }
+
 }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+/* On devices wider than 660px */
+@media(max-width: 660px) {
+
+.flex-box-one {
+  display: block;
+}
+
+.white .container {
+  margin-top: 100px;
+}
+
+.parent-container {
+  display: block;
+}
+
+.grey .container {
+  margin-top: 100px;
 }
